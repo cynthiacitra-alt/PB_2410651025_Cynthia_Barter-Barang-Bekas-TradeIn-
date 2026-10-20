@@ -1,17 +1,31 @@
-# flutter_application_1
+# TradeIn
 
-A new Flutter project.
+## Deskripsi
+TradeIn Platform untuk saling menukar barang bekas yang masih layak pakai tanpa transaksi uang tunai.
 
-## Getting Started
+## Milestone Saat Ini
+Navigation v0.1
 
-This project is a starting point for a Flutter application.
+## Versi
+v0.1 - Navigation
 
-A few resources to get you started if this is your first Flutter project:
+## Daftar Screen
+- Home
+- Fitur Utama / Daftar Tugas
+- Profil / Input Pengguna
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Fitur BAB 5
+- Navigasi dari Home ke screen lain.
+- Tombol kembali menggunakan Navigator.pop.
+- Event handling menggunakan onPressed.
+- Input pengguna sederhana menggunakan TextField.
+- Respons sederhana menggunakan SnackBar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan
+flutter run -d chrome
+
+## Bukti Running
+Tambahkan screenshot atau link video singkat aplikasi berjalan.
+
+## Catatan Penggunaan AI
+Tuliskan jika AI digunakan untuk debugging atau memahami error navigasi.
