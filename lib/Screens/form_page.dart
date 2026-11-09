@@ -54,8 +54,8 @@ class _FormPageState extends State<FormPage> {
       );
     }
   }
-  
-  @override
+
+@override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
