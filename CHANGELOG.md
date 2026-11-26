@@ -1,4 +1,21 @@
 # CHANGELOG
+
+## v1.1 - API/Data Extension
+Tanggal:
+Perubahan:
+- Menambahkan sumber data REST API/mock API/local JSON.
+- Membuat model data berdasarkan struktur JSON.
+- Membuat service untuk mengambil atau membaca data.
+- Menampilkan data pada screen aplikasi.
+- Menambahkan loading, error, dan empty state.
+- Memperbarui README dan catatan penggunaan AI jika digunakan.
+
+Bukti:
+- Screenshot data tampil tersedia.
+- Screenshot/video loading/error/empty state tersedia jika memungkinkan.
+- Commit Git tersedia.
+- Catatan kendala dan solusi tersedia.
+
 ## v0.3 - Data Module
 Tanggal: 2026-11-03
 

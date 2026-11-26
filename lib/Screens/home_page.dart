@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Screens/feature_page.dart';
 import 'package:flutter_application_1/Screens/profile_page.dart';
 import 'package:flutter_application_1/Screens/form_page.dart';
-import 'package:flutter/material.dart';
-
+import 'package:flutter_application_1/pages/api_task_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -71,17 +71,30 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Buka Profil'),
             ),
+            const SizedBox(height: 8),
             ElevatedButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const FormPage(),
-              ),
-            );
-          },
-          child: const Text('Buka Form'),
-        ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const FormPage(),
+                  ),
+                );
+              },
+              child: const Text('Buka Form'),
+            ),
+            const SizedBox(height: 8),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ApiTaskPage(),
+                  ),
+                );
+              },
+              child: const Text('Lihat Data API'),
+            ),
           ],
         ),
       ),
